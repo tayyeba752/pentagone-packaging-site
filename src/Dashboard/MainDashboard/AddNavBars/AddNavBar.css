@@ -1,0 +1,46 @@
+/* ========== Default for all dashboard ========== */
+
+.body {
+  height: auto;
+}
+
+.ButtonDesgin {
+  border-radius: 7px;
+  border: none;
+}
+.ButtonDesgin:hover {
+  background-color: #0d0d0d;
+  border: none;
+}
+
+.backgroundBlack {
+  background-color: white;
+}
+.backgroundGrey {
+  background-color: white;
+  height: 1200px;
+}
+.ori-breadcrumb-content {
+  margin-top: -140px;
+  margin-bottom: -150px;
+  background-color: #0d0d0d;
+}
+
+.line {
+  border-bottom: 1px solid black;
+  height: 100px;
+}
+@media (max-width: 480px) {
+  .ori-breadcrumb-content {
+    margin-top: -70px;
+    margin-bottom: -50px;
+  }
+}
+
+/*          Seperate             */
+.closeModalIcon {
+  color: white;
+  margin-top: -70px;
+  margin-right: -60px;
+  border: none;
+}

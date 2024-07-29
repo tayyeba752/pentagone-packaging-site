@@ -1,0 +1,21 @@
+.top-mail,
+.top-mail a {
+  color: black;
+  text-decoration: none !important;
+}
+
+.top-mail a:hover {
+  color: var(--main-color2) !important;
+  text-decoration: none;
+}
+
+.top-mail {
+  background-color: #ddd;
+  padding: 3px 0;
+}
+
+@media (max-width: 991px) {
+  .top-mail {
+    display: none;
+  }
+}

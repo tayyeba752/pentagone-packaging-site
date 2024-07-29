@@ -1,0 +1,11 @@
+.stiky{
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 08rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    box-shadow: 0 0 3rem rgb(0, 0, 0, 0.1);
+
+}

@@ -1,0 +1,10 @@
+.formBoxTable{
+    width: 60%;
+}
+
+
+@media screen and (max-width: 500px) {
+    .formBoxTable {
+        width: 85%;
+    }
+}

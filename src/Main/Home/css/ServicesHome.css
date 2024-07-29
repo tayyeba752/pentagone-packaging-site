@@ -1,0 +1,33 @@
+.servicesHomeBody{
+    background-color: #70d3ff1a;
+}
+
+.boxes {
+    background-color: #ade4f5;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    padding: 03px;
+    opacity: 90%;
+    cursor: pointer;
+    margin: 5px;
+    /* Add margin for spacing between boxes */
+}
+.boxes1 {
+    background-color:transparent;
+    opacity: 90%;
+    cursor: pointer;
+    margin-top: 1px;
+    margin-left: 60px;
+    /* Add margin for spacing between boxes */ 
+}
+.cardDesign{
+    margin-left: 100px;
+}
+
+/* Media query for screens smaller than 768px (adjust the breakpoint as needed) */
+ 
+
+/* Add the following styles if you want to hide the scrollbar completely */
+.horizontal-scroll-container::-webkit-scrollbar {
+    display: none;
+}

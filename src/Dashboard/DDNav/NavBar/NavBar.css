@@ -1,0 +1,158 @@
+.cursorPointer {
+  cursor: pointer;
+}
+.marginHandle {
+  margin-top: 30px;
+}
+.getQuoBtn {
+  height: 40px;
+}
+.topBar {
+  color: grey;
+  /* font-weight: bold; */
+  cursor: pointer;
+  text-decoration: none;
+}
+.topBar:hover {
+  text-shadow: 0px 0px 50px #112b79;
+  font-weight: bolder;
+}
+
+.ButtonGetQuote {
+  color: #112b79;
+}
+
+.navbarDesign {
+  background-color: #11a5fa;
+  position: fixed;
+  width: 100%;
+  height: auto;
+  color: #e4e5e9;
+  z-index: 1000;
+}
+
+/* style={{ marginTop: "25px", backgroundColor: "#112b79", color: "white", border: "none", fontWeight: "bolder", fontSize: "large" }} */
+
+.handleButtonQuote {
+  margin-top: 25px;
+  background-color: #e4e5e9;
+  color: #112b79;
+  border: none;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+/* navbar fixed */
+
+.fixNav1 {
+  position: fixed;
+  width: 100%;
+}
+
+.fixNav2 {
+  position: fixed;
+  width: 100%;
+}
+
+.displayNone {
+  margin-right: 1px;
+}
+.sizePh {
+  font-size: large;
+}
+.sizeBuGetQuote {
+  font-size: large;
+}
+
+.theme-color {
+  color: #4083c1 !important;
+}
+
+.theme-hover-color:hover {
+  color: #4083c1 !important;
+}
+
+.theme-bg-color {
+  background-color: #4083c1 !important;
+}
+
+.theme-border-color {
+  border-color: #4083c1 !important;
+}
+
+.theme-hover-bg-color:hover {
+  background-color: #4083c1 !important;
+}
+
+main {
+  margin-top: 50px;
+  /* Adjust margin to accommodate fixed navbar */
+}
+
+/* ================================      SideBar Code      ============================= */
+/* ==================    SIDE BAR     ============================= */
+
+.sidebar {
+  background: #5a565653;
+  border-radius: 15px;
+  height: 310px;
+  color: #38b6ff; /* Set text color to white */
+}
+
+#sidebarMain {
+  color: #27add4;
+  margin-left: 15px;
+  font-size: xx-large;
+  align-items: center;
+}
+.sidebarlink {
+  margin-left: 50px;
+  font-size: 20px;
+}
+.borderBottumLine {
+  border-bottom: 2px solid rgb(167, 163, 163);
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+
+/* -===================== */
+/* ================================      SideBar Code      ============================= */
+@media (max-width: 580px) {
+  .displayNone {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .hideNavBar {
+    display: none;
+  }
+  .marginHandle {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 590px) {
+  .sizePh {
+    display: none;
+  }
+}
+
+@media (max-width: 430px) {
+  .sizeBuGetQuote {
+    font-size: 13px;
+  }
+}
+@media (max-width: 395px) {
+  .sizeBuGetQuote {
+    font-size: 10px;
+    font-weight: bolder;
+  }
+}
+@media (max-width: 377px) {
+  .sizeBuGetQuote {
+    font-size: 10px;
+    font-weight: bolder;
+  }
+}

@@ -1,0 +1,10 @@
+.right-side {
+    position: relative;
+    cursor: pointer;
+    transition: color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .right-side:hover {
+    color: #ff6600; /* Change the color to your desired hover effect */
+  }
+  

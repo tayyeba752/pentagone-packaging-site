@@ -1,0 +1,59 @@
+.testimonial-box {
+    background-color: #ffffff; /* Set a white background color */
+    border: 1px solid #dee2e6; /* Add a subtle border */
+    border-radius: 8px; /* Optional: Round the corners for a softer look */
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 550px;
+    margin: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .namePerson{
+    color: #37b2fa;
+    font-weight: bolder;
+    font-size: 40px;
+  }
+  .nameField{
+    color: grey;
+    font-weight: bolder;
+    font-size: 13px;
+  }
+  .testimonial-text {
+    font-size: 16px;
+    margin-left: 05px;
+    margin-right: 05px;
+
+    line-height: 1.6;
+    color: #495057;
+  }
+
+  .testimonial-author {
+    margin-top: 15px;
+    font-weight: bold;
+    display: flex;
+    color: #495057;
+    align-items: center;
+  }
+
+  .gender-icon-container {
+    background-color: #6c757d; /* Set the background color for the circle */
+    border-radius: 50%; /* Make the circle round */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px; /* Set the size of the circle */
+    height: 50px;
+    margin-right: 8px;
+  }
+
+  .gender-icon-male {
+    color: #38f8ff; 
+    font-size: 30px; /* Adjust the size of the icon */
+  }
+  .gender-icon-female {
+    color: #d738ff; 
+    font-size: 30px; /* Adjust the size of the icon */
+  }
+
+ 

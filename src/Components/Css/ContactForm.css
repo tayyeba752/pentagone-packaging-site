@@ -1,0 +1,24 @@
+/* YourComponent.css */
+
+.row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .col-lg-6 {
+    flex: 0 0 50%; /* Set each column to take up 50% of the width */
+  }
+  
+  /* Adjust padding or margin as needed */
+  .card-body {
+    padding: 2rem;
+  }
+  
+  .text-white {
+    color: #fff;
+  }
+  
+  /* Add more styles as needed */
+  .form{
+      
+  }

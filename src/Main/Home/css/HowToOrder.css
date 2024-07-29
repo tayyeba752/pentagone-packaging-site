@@ -1,0 +1,80 @@
+.img {
+  margin: 0px;
+  height: auto;
+  width: auto;
+  max-width: 240px;
+  min-width: 100px;
+}
+
+/* Add your existing styles here */
+
+@media (max-width: 1130px) {
+  .marginLeft {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 1070px) {
+  .marginLeft {
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .marginLeft {
+    margin-left: 40px;
+  }
+}
+@media (max-width: 1020px) {
+  .marginLeft {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .marginLeft {
+    margin-left: 60px;
+  }
+}
+@media (max-width: 991px) {
+  .marginLeft {
+    margin-left: 0px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .marginLeft {
+    margin-left: -10px;
+  }
+}
+
+@media (min-width: 1230px) {
+  .marginLeft {
+    margin-left: -20px;
+  }
+}
+@media (min-width: 1270px) {
+  .marginLeft {
+    margin-left: -40px;
+  }
+}
+@media (min-width: 1300px) {
+  .marginLeft {
+    margin-left: -60px;
+  }
+}
+
+@media (min-width: 1350px) {
+  .marginLeft {
+    margin-left: -70px;
+  }
+}
+@media (min-width: 1400px) {
+  .marginLeft {
+    margin-left: -90px;
+  }
+}
+@media (min-width: 1430px) {
+  .marginLeft {
+    margin-left: -100px;
+  }
+}

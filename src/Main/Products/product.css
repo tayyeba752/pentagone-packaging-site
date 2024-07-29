@@ -1,0 +1,21 @@
+.seemoreHead {
+  cursor: pointer;
+}
+
+.seemoreHead:hover {
+  font-weight: bolder;
+}
+
+.headiPro {
+  font-size: 27px;
+  font-weight: bold;
+  color: #1ea9d3;
+}
+.description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}

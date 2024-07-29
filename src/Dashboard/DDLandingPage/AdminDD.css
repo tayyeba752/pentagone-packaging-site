@@ -1,0 +1,13 @@
+.box{
+    border: 1px solid white;
+    height: 200px;
+    width: 200px;
+    margin: 200px;
+}
+
+.cardTitle{
+    color: #37b2fa;
+    font-size: 27px;
+    font-weight: bolder;
+}
+
